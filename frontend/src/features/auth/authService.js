@@ -1,6 +1,8 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:5001/api/users/'
+//const API_URL = 'http://localhost:5001/api/users/'
+
+const API_URL = 'https://modern-kerchief-moth.cyclic.app/api/users/'
 
 //Login
 const login = async (userData) =>{

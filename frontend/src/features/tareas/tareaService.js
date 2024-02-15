@@ -1,7 +1,8 @@
 import axios from "axios";
 
-const API_URL = 'http://localhost:5001/api/tareas/'
+//const API_URL = 'http://localhost:5001/api/tareas/'
 
+const API_URL = 'https://modern-kerchief-moth.cyclic.app/api/tareas/'
 //Crear una Tarea
 const crearTarea = async (tareaData, token) => {
     const config = {
