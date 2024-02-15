@@ -14,6 +14,7 @@ const TareaForm = () => {
         dispatch(crearTarea({texto}))
         setTexto('')
     }
+    
   return (
     <section className="form">
         <form onSubmit={onSubmit}>
